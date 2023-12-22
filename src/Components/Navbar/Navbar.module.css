@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;600;700&family=Teko:wght@300;400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    scroll-behavior: auto;
+    background-color: #000000;
+  }
+
+
+.navbar{
+    width: 100vw;
+    background-color: #2e2e2e;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    padding: 0.5vw 5vw 0.5vw 5vw;
+    font-size: 1vw;
+    position: fixed;
+    z-index: 5;
+    border-bottom: 1px solid #575757;
+}
+
+.obj1, .meet, .obj3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vw;
+}
+
+.obj2{
+    display: block;
+}
+
+.obj1 .coffeeMobile{
+    display: none;
+}
+
+.meet{
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    list-style: none;
+}
+
+.meet svg{
+    color: #dd3c0e;
+}
+
+.obj1 span{
+    color: #dd3c0e;
+}
+
+.obj1{
+ width: 11vw;
+ height: 4vw;
+}
+
+.obj1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.signUp{
+    border: 1px solid #f42500;
+    padding: 0.6vw 1.5vw 0.6vw 1.5vw;
+    border-radius: 0.5vw;
+}
+
+.obj3 svg{
+    display: none;
+}
+
+.signUp p{
+    font-size: 1.1vw;
+}
+
+.coffee{
+   width: 3vw;
+}
+
+.coffee img{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 575px){
+
+    .navbar{
+        width: 100vw;
+        background-color: #0a0a0a;
+        height: 15vw;
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: #ffffff;
+        padding: 3vw 5vw;
+        font-size: 1vw;
+        position: fixed;
+    }
+    
+    .obj3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0.3vw;
+    }
+
+    .obj1{
+        width: 25vw;
+        height: 9vw;
+    }
+
+    .obj1 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .obj2{
+        display: none;
+    }
+    
+    .obj2 svg{
+        color: #dd3c0e;
+    }
+    
+    
+    .coffeeMobile{
+       width: 3vw;
+    }
+    
+    .coffeeMobile img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .obj3{
+        font-size: 5vw;
+        font-weight: 500;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 4vw;
+        padding-left: 2vw;
+    }
+
+    .signUp{
+        border: 1px solid #f42500;
+        padding: 1.5vw 3vw 1.5vw 3vw;
+        border-radius: 1vw;
+    }
+    
+    .signUp p{
+        font-size: 3vw;
+    }
+
+    .obj3 svg{
+        display: block;
+        font-size: 4.5vw;
+        margin-right: 3vw;   
+    }
+}

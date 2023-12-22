@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;600;700&family=Teko:wght@300;400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    scroll-behavior: auto;
+    background-color: #000000;
+  }
+
+  .Section1{
+    color: #ffffff;
+    background-color: #2e2e2e;
+    padding-top: 8vw;
+    width: 100vw;
+    height: 90vh;
+
+  }
+
+  .HeroFlex{ 
+    width: 70vw;
+    margin: 2vw 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    gap: 5vw;
+    margin-bottom: 5vw;
+  }
+
+  .HeroLeft{
+    width: 70vw;
+  }
+
+  .HeroLeft img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .HeroRight p{
+    font-family: 'Poppins';
+    margin-bottom: 1vw;
+    font-size: 1.1vw;
+  }
+
+  .HeroRight h1{
+    font-size: 3vw;
+    line-height: 3.5vw;
+    margin-bottom: 3vw;
+  }
+
+  .HeroRight h1 span{
+    color: #c71500;
+  }
+
+  .HeroRight .buttons{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 2vw;
+  }
+
+  .HeroRight .buttons button{
+    background-color: #c71500;
+    color: #ffffff;
+    font-family: 'Poppins';
+    padding: 0.5vw 1vw;
+    border: none;
+    border-radius: 0.2vw;
+    font-size: 1vw;
+  }
+
+  .HeroRight .buttons .learn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+  }
+
+  .HeroRight .buttons .learn svg{
+    font-size: 1.5vw;
+  }
+
+  .HeroRight .buttons .learn p{
+    margin-bottom: 0;
+  }
+
+  .Featured{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+  }
+
+  .FeaturedLogo{
+    width: 12vw;
+    background-color: #000000;
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+  }
+
+  .FeaturedLogo img{
+    width: 100%;
+    height: 100%;
+  }

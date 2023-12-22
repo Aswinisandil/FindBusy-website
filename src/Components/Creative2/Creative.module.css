@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;600;700&family=Teko:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    scroll-behavior: auto;
+    background-color: #000000;
+}
+
+.Section3{
+    color: #ffffff;
+    background-color: #1e1e1e;
+    padding-top: 8vw;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins';
+
+  }
+
+.Section3 h1{
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 0.5vw;
+
+}
+
+.Section3 .agencypara{
+    font-size: 1.3vw;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+.CreateFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw; 
+    margin-top: 2VW;
+}
+
+.Create{
+    border: 1px solid #807f7f; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw !important;
+    border-radius: 1vw;
+}
+
+.CreateImage{
+   width: 15vw;
+   height: 12vw;
+   padding: 1vw;
+}
+
+.CreateImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.CardContent{
+    display: flex;
+    flex-direction: column;
+    margin: 1vw 1.5vw 1vw -1vw;
+}
+
+.CardContent h2{
+    font-size: 1.8vw;
+}
+
+.CardContent .content{
+    text-align: left;
+    font-size: 1.1vw;
+    color: #807f7f;
+}
+
+.LearnMore{
+    display: flex;
+    flex-direction: row ;
+    align-items: center; 
+    color: #c71500;
+    font-size: 1.1vw;
+}
+
+.LearnMore svg{
+    font-size: 3vw;
+}
