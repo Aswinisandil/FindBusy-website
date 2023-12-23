@@ -12,7 +12,6 @@ const Home = () => {
       <Hero/>
       <CreativeAgency/>
       <Creative/>
-      <Hiring/>
     </>
   )
 }
